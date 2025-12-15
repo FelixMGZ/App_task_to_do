@@ -28,7 +28,7 @@ Este proyecto destaca mi capacidad para construir aplicaciones funcionales con l
 
 1.  Clona el repositorio:
     ```bash
-    git clone [https://github.com/FelixMGZ/NOMBRE_DE_TU_REPO_TAREAS.git](https://github.com/FelixMGZ/NOMBRE_DE_TU_REPO_TAREAS.git)
+    git clone https://github.com/FelixMGZ/App_task_to_do
     ```
 2.  Instala las dependencias:
     ```bash
