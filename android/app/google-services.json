@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821941582868",
+    "project_id": "task-manager-auth-baca1",
+    "storage_bucket": "task-manager-auth-baca1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821941582868:android:cc162af12b4ff462fdbb01",
+        "android_client_info": {
+          "package_name": "com.example.to_do_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCORt0hkWVQRzjrZ6M50I-1_soXJCaon_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

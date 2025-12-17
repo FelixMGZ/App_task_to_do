@@ -6,6 +6,11 @@ import 'package:path_provider/path_provider.dart';
 // 2. Importamos nuestra pantalla de inicio (ahora será la de tareas)
 import 'package:to_do_app/src/features/todo/todo_screen.dart';
 
+// inizialize firebase
+import 'package:firebase_core/firebase_core.dart';
+
+import 'login_screen.dart';
+
 // 3. ¡main() ahora es "async"!
 Future<void> main() async {
   
@@ -15,6 +20,9 @@ Future<void> main() async {
 
   // 5. Obtenemos el directorio legal para guardar la base de datos
   final appDocumentDir = await getApplicationDocumentsDirectory();
+
+  // Inicializar Firebase (Esto conecta con el json que bajaste)
+  await Firebase.initializeApp();
 
   // 6. ¡Inicializamos Hive en esa carpeta!
   await Hive.initFlutter(appDocumentDir.path);
@@ -29,13 +37,14 @@ Future<void> main() async {
 
 class MiApp extends StatelessWidget {
   const MiApp({super.key});
-
+  
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      // 9. Apuntamos a nuestra NUEVA pantalla de tareas
-      home: TodoScreen(), // ¡CAMBIO DE PANTALLA!
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'Task App',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: const LoginScreen(), 
     );
   }
 }
