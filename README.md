@@ -1,11 +1,14 @@
-# ✅ Hive To-Do: Gestor de Tareas con Persistencia Local
+# 📱 Offline Task Manager (Flutter + Firebase)
 
-Una aplicación de productividad rápida y eficiente que permite gestionar tareas diarias. Este proyecto implementa un ciclo **CRUD completo** (Crear, Leer, Actualizar, Borrar) y utiliza una base de datos NoSQL local para persistencia de datos, asegurando que la información no se pierda al cerrar la app.
+Una aplicación de productividad robusta que combina la velocidad del almacenamiento local con la seguridad de la autenticación en la nube. Diseñada bajo principios de **Clean Architecture** y enfoque **Offline-First**. 
 
-<img src="https://github.com/FelixMGZ/App_task_to_do/blob/main/imagen/Screenshot_1765822710.png" alt="Captura de pantalla de la aplicación" width="400"/>
+Rápida y eficiente que permite gestionar tareas diarias. Este proyecto implementa un ciclo **CRUD completo** (Crear, Leer, Actualizar, Borrar) y utiliza una base de datos NoSQL local para persistencia de datos, asegurando que la información no se pierda al cerrar la app.
+
+<img src="https://github.com/FelixMGZ/App_task_to_do/blob/main/imagen/Screenshot_1765996186.png" alt="Captura de pantalla de la aplicación" width="250"/>   <img src="https://github.com/FelixMGZ/App_task_to_do/blob/main/imagen/Screenshot_1765822710.png" alt="Captura de pantalla de la aplicación" width="250"/>
 
 ## ✨ Características Principales
 
+* **🔐 Autenticación Segura:** Sistema de Login integrado con **Google Sign-In** y **Firebase Authentication** para proteger el acceso.
 * **Persistencia de Datos Local:** Integración con **Hive**, una base de datos ligera y ultrarrápida para Flutter.
 * **CRUD Completo:** Funcionalidad total para agregar tareas, marcarlas como completadas y eliminarlas permanentemente.
 * **Interfaz Reactiva:** Uso de `ValueListenableBuilder` para actualizar la interfaz de usuario instantáneamente cuando la base de datos cambia, sin necesidad de recargar manualmente.
@@ -14,7 +17,9 @@ Una aplicación de productividad rápida y eficiente que permite gestionar tarea
 ## 🛠️ Tecnologías Utilizadas
 
 * **Framework:** [Flutter](https://flutter.dev/)
-* **Base de Datos:** [Hive](https://docs.hivedb.dev/) (NoSQL Key-Value database).
+* **Base de Datos:** [Hive](https://docs.hivedb.dev/) (NoSQL Key-Value database) Hive & Hive Flutter.
+* **Backend & Auth:** Firebase Core, Firebase Auth
+* **Plugins:** Google Sign In, Path Provider
 * **Gestión de Archivos:** `path_provider` para gestión segura de directorios en Android/iOS.
 
 ## 🧠 Habilidades demostradas
